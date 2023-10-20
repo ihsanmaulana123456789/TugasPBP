@@ -3,7 +3,7 @@ const restaurant = {
     city: "Tangerang BSD",
     favoriteDrink: "Ice Thai Tea",
     favoriteFood: "Bebek Goreng",
-    isVegan: true // Ini bisa berupa true atau false sesuai preferensi
+    isVegan: true
   };
   
   // Mengecek apakah properti tidak kosong atau null
@@ -23,18 +23,17 @@ const restaurants = [
     {
       name: "Gacoan",
       city: "Bogor",
-      favoriteDrink: "Teh Pucuk",
+      favoriteDrink: "Lemon Tea",
       favoriteFood: "Mie Pedas",
       isVegan: true
     },
     {
       name: "Iga Resto",
       city: "Serpong",
-      favoriteDrink: "Coffe Tubruk",
+      favoriteDrink: "Teh Pucuk",
       favoriteFood: "Sate Iga",
       isVegan: false
     },
-    // Anda dapat menambahkan lebih banyak objek restaurant ke dalam array ini
   ];
   
   // Mengecek apakah properti tidak kosong atau null pada setiap objek di dalam array
